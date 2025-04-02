@@ -79,11 +79,12 @@ const Team = () => {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <div className="aspect-[3/4] w-full rounded-lg overflow-hidden shadow-xl bg-gray-200">
-                      {/* Placeholder for Ilona's photo (to be added later) */}
-                      <div className="w-full h-full flex items-center justify-center text-gray-500">
-                        Foto volgt
-                      </div>
+                    <div className="aspect-[3/4] w-full rounded-lg overflow-hidden shadow-xl">
+                      <img 
+                        src="/lovable-uploads/f3415e50-8c9c-4809-a349-aa5cabbe7dbc.png" 
+                        alt="Ilona - Bureau Reuring" 
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                   </div>
                   
