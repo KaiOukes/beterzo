@@ -36,7 +36,7 @@ const Intro = () => {
           
           <div className="bg-beterzo-light p-6 rounded-xl border border-beterzo-gray">
             <blockquote className="text-xl italic text-gray-700">
-              "Ik geloof dat AI en automatisering je werk beter maken als je weet hoe je het praktisch kunt inzetten. Mijn missie is om teams te helpen slimmer te werken met technologie die voor iedereen toegankelijk is."
+              "Met Beterzo geven we bedrijven de ruimte om te doen waar ze goed in zijn - om te doen wat ze leuk vinden!"
             </blockquote>
             <p className="mt-4 font-medium">- Kai Oukes, Oprichter Beterzo</p>
           </div>
