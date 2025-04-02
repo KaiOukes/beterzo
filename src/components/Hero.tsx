@@ -59,17 +59,17 @@ const Hero = () => {
         </div>
         
         <div className="order-1 md:order-2 flex justify-center">
-          <div className="relative w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-white shadow-xl slide-in" style={{ transitionDelay: '300ms' }}>
+          <div className="relative w-full h-64 md:h-[400px] rounded-lg overflow-hidden shadow-xl slide-in" style={{ transitionDelay: '300ms' }}>
             <img 
-              src="/PROFIELFOTO.jpeg" 
-              alt="Kai Oukes van Beterzo" 
+              src="/lovable-uploads/0397b9c3-03ae-47aa-99fa-ff8b4149c071.png" 
+              alt="Kai Oukes van Beterzo geeft workshop" 
               className="w-full h-full object-cover"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
                 target.src = "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80";
               }}
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-primary-900/50 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-primary-900/20 to-transparent"></div>
           </div>
         </div>
       </div>
