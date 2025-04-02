@@ -42,18 +42,18 @@ const MaatwerkAutomatiseringen = () => {
       <main className="flex-grow pt-24">
         {/* Hero Section */}
         <section className="py-16 bg-gradient-to-b from-white via-blue-50 to-blue-100">
-          <div className="container px-4 mx-auto text-center">
+          <div className="container px-4 mx-auto">
             <div className="animate-on-scroll">
               <h1 className="text-3xl md:text-5xl font-bold mb-6 relative">
                 Jouw processen...
-                <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-primary"></span>
+                <span className="absolute -bottom-2 left-0 w-24 h-1 bg-primary"></span>
               </h1>
               <h2 className="text-2xl md:text-3xl text-primary font-medium mb-8">
                 ...een tikkie beterzo
               </h2>
             </div>
             
-            <div className="animate-on-scroll max-w-3xl mx-auto">
+            <div className="animate-on-scroll max-w-3xl">
               <p className="text-lg md:text-xl text-gray-700 mb-8">
                 We ontwikkelen op maat gemaakte automatiseringsoplossingen die
                 perfect aansluiten bij jouw bedrijfsprocessen en behoeften.
@@ -77,7 +77,7 @@ const MaatwerkAutomatiseringen = () => {
         {/* Main Benefits */}
         <section className="py-16 bg-white">
           <div className="container px-4 mx-auto">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-4xl">
               <div className="animate-on-scroll bg-white rounded-lg shadow-xl p-6 border-l-4 border-primary transform transition-all hover:-translate-y-1 hover:shadow-2xl mb-6">
                 <p className="text-lg text-gray-700">
                   Deze workflows helpen bij het automatiseren van diverse taken, zoals het stroomlijnen van
@@ -103,13 +103,13 @@ const MaatwerkAutomatiseringen = () => {
         <section className="py-16 bg-gradient-to-b from-white via-blue-50 to-blue-100">
           <div className="container px-4 mx-auto">
             <div className="animate-on-scroll">
-              <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center relative">
+              <h2 className="text-2xl md:text-3xl font-bold mb-12 relative">
                 Hoe wij <span className="text-primary">werken</span>
-                <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-primary"></span>
+                <span className="absolute -bottom-2 left-0 w-24 h-1 bg-primary"></span>
               </h2>
             </div>
             
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-4xl">
               <div className="animate-on-scroll bg-white rounded-lg shadow-xl p-6 border-l-4 border-primary transform transition-all hover:-translate-y-1 hover:shadow-2xl mb-6">
                 <p className="text-lg text-gray-700">
                   Het proces begint met een intakegesprek waarin we jouw specifieke behoeften en workflows in
@@ -140,13 +140,13 @@ const MaatwerkAutomatiseringen = () => {
         <section className="py-16 bg-white">
           <div className="container px-4 mx-auto">
             <div className="animate-on-scroll">
-              <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center relative">
+              <h2 className="text-2xl md:text-3xl font-bold mb-12 relative">
                 Proces <span className="text-primary">voorbeelden</span>
-                <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-primary"></span>
+                <span className="absolute -bottom-2 left-0 w-24 h-1 bg-primary"></span>
               </h2>
             </div>
             
-            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl">
               <Card className="animate-on-scroll border-none shadow-xl overflow-hidden">
                 <div className="bg-gradient-to-r from-blue-600 to-primary-400 h-3"></div>
                 <CardContent className="p-6">
@@ -203,13 +203,13 @@ const MaatwerkAutomatiseringen = () => {
         <section className="py-16 bg-gradient-to-b from-white via-blue-50 to-blue-100">
           <div className="container px-4 mx-auto">
             <div className="animate-on-scroll">
-              <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center relative">
+              <h2 className="text-2xl md:text-3xl font-bold mb-12 relative">
                 Jouw <span className="text-primary">investering</span>
-                <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-primary"></span>
+                <span className="absolute -bottom-2 left-0 w-24 h-1 bg-primary"></span>
               </h2>
             </div>
             
-            <div className="max-w-3xl mx-auto animate-on-scroll">
+            <div className="max-w-3xl animate-on-scroll">
               <Card className="border-none shadow-xl overflow-hidden">
                 <div className="bg-gradient-to-r from-blue-600 to-primary-400 h-3"></div>
                 <CardContent className="p-8">
@@ -238,7 +238,7 @@ const MaatwerkAutomatiseringen = () => {
 
         {/* CTA */}
         <section className="py-16 bg-white">
-          <div className="container px-4 mx-auto text-center">
+          <div className="container px-4 mx-auto">
             <div className="animate-on-scroll">
               <h2 className="text-3xl md:text-4xl font-bold mb-2">
                 Klaar voor een tikkie
@@ -248,7 +248,7 @@ const MaatwerkAutomatiseringen = () => {
               </h3>
             </div>
             
-            <div className="max-w-xl mx-auto mb-8 animate-on-scroll">
+            <div className="max-w-xl mb-8 animate-on-scroll">
               <div className="bg-white p-8 rounded-2xl shadow-xl border border-blue-100">
                 <p className="text-lg text-gray-700 mb-6">
                   Heb je vragen over de mogelijkheden van jouw processen? Stuur nu een mailtje naar Kai of plan een gesprek in!
@@ -256,7 +256,7 @@ const MaatwerkAutomatiseringen = () => {
                 
                 <a 
                   href="mailto:kai@beterzo.tech" 
-                  className="text-primary hover:text-primary-600 font-medium text-lg flex items-center justify-center"
+                  className="text-primary hover:text-primary-600 font-medium text-lg flex items-center"
                 >
                   kai@beterzo.tech
                 </a>
