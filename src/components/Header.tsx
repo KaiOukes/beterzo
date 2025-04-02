@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import Logo from './Logo';
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -23,7 +24,20 @@ const Header = () => {
       }`}
     >
       <div className="container flex justify-between items-center">
-        <Logo />
+        <div className="flex items-center">
+          <Link to="/">
+            <Logo />
+          </Link>
+          
+          <nav className="ml-8 hidden md:flex space-x-6">
+            <Link to="/" className="text-gray-700 hover:text-primary font-medium">
+              Home
+            </Link>
+            <Link to="/team" className="text-gray-700 hover:text-primary font-medium">
+              Ons Team
+            </Link>
+          </nav>
+        </div>
         
         <a 
           href="https://tally.so/r/w7agNZ" 
