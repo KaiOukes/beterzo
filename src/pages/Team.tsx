@@ -72,11 +72,12 @@ const Team = () => {
               <div className="slide-in" style={{ transitionDelay: '200ms' }}>
                 <div className="flex flex-col space-y-6">
                   <div className="grid grid-cols-2 gap-4">
-                    <div className="aspect-[3/4] w-full rounded-lg overflow-hidden shadow-xl bg-gray-200">
-                      {/* Placeholder for Jean-Luc's photo (to be added later) */}
-                      <div className="w-full h-full flex items-center justify-center text-gray-500">
-                        Foto volgt
-                      </div>
+                    <div className="aspect-[3/4] w-full rounded-lg overflow-hidden shadow-xl">
+                      <img 
+                        src="/lovable-uploads/13bb68ce-d9bf-41a9-a018-ddd063578839.png" 
+                        alt="Jean-Luc - Bureau Reuring" 
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                     <div className="aspect-[3/4] w-full rounded-lg overflow-hidden shadow-xl bg-gray-200">
                       {/* Placeholder for Ilona's photo (to be added later) */}
