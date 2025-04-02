@@ -30,15 +30,9 @@ const Intro = () => {
             Over <span className="title-gradient">Beterzo</span>
           </h2>
           
-          <p className="text-lg text-gray-700 mb-4">
-            De gemiddelde professional verliest 7 uur per week aan herhalende taken waar weinig kennis voor nodig is.
-          </p>
-          
           <p className="text-lg text-gray-700 mb-8">
+            De gemiddelde professional verliest 7 uur per week aan herhalende taken waar weinig kennis voor nodig is. 
             Wij geloven dat iedere werknemer een verschil moet kunnen maken en niet hun tijd moet verspillen aan het verwerken van e-mails of het invullen van spreadsheets.
-          </p>
-          
-          <p className="text-lg text-gray-700 mb-8">
             Beterzo geeft bedrijven vrijheid terug door vervelende, herhalende taken te automatiseren en teams op te leiden in AI-tools zoals ChatGPT, Copilot en Make.com.
           </p>
           
