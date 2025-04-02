@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -236,43 +235,28 @@ const MaatwerkAutomatiseringen = () => {
           </div>
         </section>
 
-        {/* CTA */}
-        <section className="py-16 bg-white">
-          <div className="container px-4 mx-auto">
-            <div className="animate-on-scroll">
+        {/* CTA Section - Replaced with the one from AITraining */}
+        <section className="py-16 bg-gradient-to-b from-white to-blue-50">
+          <div className="container max-w-4xl mx-auto text-center px-4 animate-on-scroll">
+            <div className="bg-white p-8 rounded-2xl shadow-xl border border-blue-100">
               <h2 className="text-3xl md:text-4xl font-bold mb-2">
                 Klaar voor een tikkie
               </h2>
               <h3 className="text-3xl md:text-4xl font-bold mb-6 text-primary">
                 beterzo?
               </h3>
-            </div>
-            
-            <div className="max-w-xl mb-8 animate-on-scroll">
-              <div className="bg-white p-8 rounded-2xl shadow-xl border border-blue-100">
-                <p className="text-lg text-gray-700 mb-6">
-                  Heb je vragen over de mogelijkheden van jouw processen? Stuur nu een mailtje naar Kai of plan een gesprek in!
-                </p>
-                
-                <a 
-                  href="mailto:kai@beterzo.tech" 
-                  className="text-primary hover:text-primary-600 font-medium text-lg flex items-center"
-                >
-                  kai@beterzo.tech
-                </a>
-              </div>
-            </div>
-            
-            <div className="animate-on-scroll">
+              
+              <p className="max-w-2xl mx-auto mb-8">
+                Heb je vragen naar de mogelijkheden van AI binnen jouw werk? Stuur ons dan zeker een mailtje!
+              </p>
+              
               <a 
-                href="https://tally.so/r/w7agNZ" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-block"
+                href="mailto:Hi@beterzo.tech" 
+                className="inline-block transform transition-all hover:scale-105"
               >
-                <Button className="rounded-full px-8 py-6 text-lg bg-primary hover:bg-primary-600 transition-all transform hover:scale-105">
-                  Vraag hier jouw offerte aan!
-                  <ArrowRight className="ml-2 h-5 w-5" />
+                <Button className="rounded-full px-6 py-3 text-lg">
+                  Stuur een e-mail
+                  <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </a>
             </div>
