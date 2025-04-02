@@ -37,10 +37,6 @@ const Team = () => {
             
             {/* Kai's Section */}
             <div className="slide-in mb-20">
-              <div className="text-center mb-8">
-                <h2 className="text-2xl font-bold">Hi, ik ben Kai!</h2>
-              </div>
-              
               <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="md:w-1/3">
                   <div className="relative aspect-[3/4] w-full max-w-md mx-auto rounded-lg overflow-hidden shadow-xl">
@@ -53,6 +49,8 @@ const Team = () => {
                 </div>
                 
                 <div className="md:w-2/3 space-y-4 text-gray-700">
+                  <h2 className="text-2xl font-bold mb-4">Hi, ik ben Kai!</h2>
+                  
                   <p>
                     Met Beterzo wil ik laten zien dat technologie niet alleen ondersteunend is, maar dé sleutel kan zijn om bedrijven weer vrijheid te geven. Alles kan nét een tikkie Beterzo – en dat is precies wat wij doen.
                   </p>
@@ -72,13 +70,11 @@ const Team = () => {
             
             {/* Jean-Luc & Ilona Section */}
             <div className="slide-in" style={{ transitionDelay: '200ms' }}>
-              <div className="text-center mb-8">
-                <h2 className="text-2xl font-bold">Hi, wij zijn Jean-Luc & Ilona!</h2>
-              </div>
-              
               <div className="flex flex-col md:flex-row gap-8 items-center">
                 <div className="md:w-2/5 order-2 md:order-1">
                   <div className="space-y-4 text-gray-700">
+                    <h2 className="text-2xl font-bold mb-4">Hi, wij zijn Jean-Luc & Ilona!</h2>
+                    
                     <p>
                       Met Bureau Reuring timmeren wij sinds 2023 aan de weg om zoveel mogelijk mensen te leren werken met generatieve AI.
                     </p>
