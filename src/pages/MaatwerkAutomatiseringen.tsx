@@ -1,3 +1,4 @@
+
 import React, { useEffect } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -98,75 +99,6 @@ const MaatwerkAutomatiseringen = () => {
                 Met onze op maat gemaakte automatiseringen verbeter je de efficiëntie, verminder je menselijke
                 fouten en zorg je voor consistente en betrouwbare resultaten. Dit stelt je team in staat om zich te
                 richten op strategische en creatieve taken die echte waarde toevoegen aan je bedrijf.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Platforms & Tools */}
-        <section className="py-16 bg-beterzo-light">
-          <div className="container px-4 mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold mb-12 text-center slide-in">
-              Onze <span className="title-gradient">Tools & Platformen</span>
-            </h2>
-            
-            <div className="max-w-4xl mx-auto">
-              <p className="text-lg text-gray-700 mb-8 slide-in">
-                Voor het ontwikkelen van op maat gemaakte automatiseringsoplossingen maken we gebruik
-                van verschillende krachtige platformen en tools. We selecteren altijd de juiste combinatie die het beste
-                past bij jouw specifieke werkprocessen en behoeften.
-              </p>
-
-              <p className="text-lg text-gray-700 mb-8 slide-in" style={{ transitionDelay: '100ms' }}>
-                Of het nu gaat om workflow automatisering, AI-integratie, data-analyse of procesoptimalisatie - 
-                we hebben toegang tot een breed scala aan tools die we flexibel kunnen inzetten. 
-                We kijken altijd naar wat het beste past bij jouw werkwijze, branche en specifieke uitdagingen.
-              </p>
-              
-              <div className="grid md:grid-cols-2 gap-8 mb-12">
-                <Card className="slide-in" style={{ transitionDelay: '200ms' }}>
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-bold mb-4">Make.com</h3>
-                    <p className="text-gray-700 mb-4">
-                      Make.com is een veelzijdig platform dat een gebruiksvriendelijke interface biedt en vrijwel
-                      onbeperkte mogelijkheden voor personalisatie. Het stelt ons in staat om jouw processen efficiënt te
-                      automatiseren zonder grenzen tegen te komen.
-                    </p>
-                    <p className="text-gray-700 mb-2">
-                      <span className="font-medium">Kosten:</span> Vanaf €9 per maand
-                    </p>
-                    <p className="text-gray-700">
-                      Via ons krijg je een maand gratis Make PRO om het platform uitgebreid te testen.
-                    </p>
-                  </CardContent>
-                </Card>
-                
-                <Card className="slide-in" style={{ transitionDelay: '300ms' }}>
-                  <CardContent className="p-6">
-                    <h3 className="text-xl font-bold mb-4">OpenAI</h3>
-                    <p className="text-gray-700 mb-4">
-                      Wanneer nodig maken we gebruik van OpenAI om geavanceerde AI-modellen te integreren en jouw
-                      processen nog slimmer te maken.
-                    </p>
-                    <p className="text-gray-700 mb-2">
-                      <span className="font-medium">Kosten:</span> Variabel op basis van verwerkte tokens:
-                    </p>
-                    <ul className="text-gray-700 list-disc pl-5 mb-2">
-                      <li>Geavanceerd model: $0,03 per 1.000 tokens</li>
-                      <li>Eenvoudig model: $0,002 per 1.000 tokens</li>
-                      <li>1.000 tokens ≈ 750 woorden</li>
-                    </ul>
-                  </CardContent>
-                </Card>
-              </div>
-              
-              <p className="text-lg text-gray-700 mb-4 slide-in" style={{ transitionDelay: '400ms' }}>
-                We trainen de AI volledig volgens jouw wensen, schrijfstijl en expertise.
-              </p>
-              
-              <p className="text-lg text-gray-700 slide-in" style={{ transitionDelay: '500ms' }}>
-                Dit doen we eerst in ons eigen systeem, waarna we de final versie naar jouw account overzetten, 
-                zodat je altijd over een gepersonaliseerde oplossing beschikt.
               </p>
             </div>
           </div>
