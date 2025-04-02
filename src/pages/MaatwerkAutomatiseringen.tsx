@@ -185,23 +185,6 @@ const MaatwerkAutomatiseringen = () => {
                   </div>
                 </div>
               </div>
-              
-              <Separator className="my-6" />
-              
-              <div className="flex flex-col md:flex-row gap-6">
-                <div className="md:w-2/3">
-                  <h3 className="text-xl font-bold mb-4">Platform kosten</h3>
-                  <p className="text-gray-700">
-                    De kosten voor de verschillende platformen betaal je direct via de betreffende websites. Deze abonnementen hoef je pas aan te schaffen nadat wij klaar zijn met ontwikkelen.
-                  </p>
-                </div>
-                
-                <div className="md:w-1/3 flex items-center justify-center">
-                  <div className="w-20 h-20 bg-primary-50 rounded-full flex items-center justify-center">
-                    <LockKeyhole className="w-10 h-10 text-primary" />
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </section>

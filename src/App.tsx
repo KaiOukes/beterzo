@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Team from "./pages/Team";
+import AITraining from "./pages/AITraining";
 import MaatwerkAutomatiseringen from "./pages/MaatwerkAutomatiseringen";
 import NotFound from "./pages/NotFound";
 
@@ -20,6 +21,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/ai-training" element={<AITraining />} />
           <Route path="/maatwerk-automatiseringen" element={<MaatwerkAutomatiseringen />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
