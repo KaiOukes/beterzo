@@ -1,4 +1,3 @@
-
 import React, { useEffect } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -40,7 +39,7 @@ const MaatwerkAutomatiseringen = () => {
               Jouw processen... <span className="title-gradient">een tikkie beterzo</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto mb-8">
-              We ontwikkelen op maat gemaakte automatiseringsoplossingen met Make.com die
+              We ontwikkelen op maat gemaakte automatiseringsoplossingen die
               perfect aansluiten bij jouw bedrijfsprocessen en behoeften.
             </p>
             <a 
@@ -62,7 +61,7 @@ const MaatwerkAutomatiseringen = () => {
               <p className="text-lg text-gray-700 mb-6 slide-in">
                 Deze workflows helpen bij het automatiseren van diverse taken, zoals het stroomlijnen van
                 communicatie, het beheren van gegevens, en het integreren van verschillende systemen. Met
-                Make.com kunnen we alles verbinden en zorgen dat je processen naadloos verlopen, zonder
+                onze tools kunnen we alles verbinden en zorgen dat je processen naadloos verlopen, zonder
                 handmatige tussenkomst.
               </p>
               
@@ -91,8 +90,8 @@ const MaatwerkAutomatiseringen = () => {
               </p>
               
               <p className="text-lg text-gray-700 mb-6 slide-in" style={{ transitionDelay: '100ms' }}>
-                Belangrijk is dat alle data veilig blijft; Make.com slaat geen gevoelige informatie op, zodat je altijd
-                zeker kunt zijn van de privacy van jouw gegevens.
+                Belangrijk is dat alle data veilig blijft; onze platformen zijn ontworpen met privacy als prioriteit, 
+                zodat je altijd zeker kunt zijn van de veiligheid van jouw gegevens.
               </p>
               
               <p className="text-lg text-gray-700 slide-in" style={{ transitionDelay: '200ms' }}>
@@ -114,11 +113,18 @@ const MaatwerkAutomatiseringen = () => {
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-gray-700 mb-8 slide-in">
                 Voor het ontwikkelen van op maat gemaakte automatiseringsoplossingen maken we gebruik
-                van krachtige platformen zoals Make.com en OpenAI.
+                van verschillende krachtige platformen en tools. We selecteren altijd de juiste combinatie die het beste
+                past bij jouw specifieke werkprocessen en behoeften.
+              </p>
+
+              <p className="text-lg text-gray-700 mb-8 slide-in" style={{ transitionDelay: '100ms' }}>
+                Of het nu gaat om workflow automatisering, AI-integratie, data-analyse of procesoptimalisatie - 
+                we hebben toegang tot een breed scala aan tools die we flexibel kunnen inzetten. 
+                We kijken altijd naar wat het beste past bij jouw werkwijze, branche en specifieke uitdagingen.
               </p>
               
               <div className="grid md:grid-cols-2 gap-8 mb-12">
-                <Card className="slide-in" style={{ transitionDelay: '100ms' }}>
+                <Card className="slide-in" style={{ transitionDelay: '200ms' }}>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-bold mb-4">Make.com</h3>
                     <p className="text-gray-700 mb-4">
@@ -135,7 +141,7 @@ const MaatwerkAutomatiseringen = () => {
                   </CardContent>
                 </Card>
                 
-                <Card className="slide-in" style={{ transitionDelay: '200ms' }}>
+                <Card className="slide-in" style={{ transitionDelay: '300ms' }}>
                   <CardContent className="p-6">
                     <h3 className="text-xl font-bold mb-4">OpenAI</h3>
                     <p className="text-gray-700 mb-4">
@@ -154,11 +160,11 @@ const MaatwerkAutomatiseringen = () => {
                 </Card>
               </div>
               
-              <p className="text-lg text-gray-700 mb-4 slide-in" style={{ transitionDelay: '300ms' }}>
+              <p className="text-lg text-gray-700 mb-4 slide-in" style={{ transitionDelay: '400ms' }}>
                 We trainen de AI volledig volgens jouw wensen, schrijfstijl en expertise.
               </p>
               
-              <p className="text-lg text-gray-700 slide-in" style={{ transitionDelay: '400ms' }}>
+              <p className="text-lg text-gray-700 slide-in" style={{ transitionDelay: '500ms' }}>
                 Dit doen we eerst in ons eigen systeem, waarna we de final versie naar jouw account overzetten, 
                 zodat je altijd over een gepersonaliseerde oplossing beschikt.
               </p>
@@ -232,12 +238,12 @@ const MaatwerkAutomatiseringen = () => {
             <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-md p-8 slide-in" style={{ transitionDelay: '100ms' }}>
               <div className="flex flex-col md:flex-row gap-6 mb-8">
                 <div className="md:w-2/3">
-                  <h3 className="text-xl font-bold mb-4">Vaste projectprijzen</h3>
+                  <h3 className="text-xl font-bold mb-4">Flexibele prijsmodellen</h3>
                   <p className="text-gray-700 mb-4">
-                    We werken met vaste projectprijzen, all-in. Dus geen verrassingen achteraf en geen losse potjes.
+                    We werken met verschillende prijsmodellen die aansluiten bij jouw specifieke situatie.
                   </p>
                   <p className="text-gray-700">
-                    Afhankelijk van het proces bepalen wij hoeveel de opzet zal kosten en stellen we een offerte op.
+                    Voor sommige projecten hanteren we vaste projectprijzen, waarbij je na afronding direct eigenaar bent van het ontwikkelde product. In andere gevallen werken we met een abonnementstructuur voor langdurige ondersteuning en doorontwikkeling.
                   </p>
                 </div>
                 
@@ -250,34 +256,17 @@ const MaatwerkAutomatiseringen = () => {
               
               <Separator className="my-6" />
               
-              <div className="flex flex-col md:flex-row gap-6 mb-8">
+              <div className="flex flex-col md:flex-row gap-6">
                 <div className="md:w-2/3">
                   <h3 className="text-xl font-bold mb-4">Platform kosten</h3>
                   <p className="text-gray-700">
-                    De Make.com & OpenAI kosten betaal je direct via de website. Dit abonnement hoef je pas te kopen nadat wij klaar zijn met ontwikkelen.
+                    De kosten voor de verschillende platformen betaal je direct via de betreffende websites. Deze abonnementen hoef je pas aan te schaffen nadat wij klaar zijn met ontwikkelen.
                   </p>
                 </div>
                 
                 <div className="md:w-1/3 flex items-center justify-center">
                   <div className="w-20 h-20 bg-primary-50 rounded-full flex items-center justify-center">
                     <LockKeyhole className="w-10 h-10 text-primary" />
-                  </div>
-                </div>
-              </div>
-              
-              <Separator className="my-6" />
-              
-              <div className="flex flex-col md:flex-row gap-6">
-                <div className="md:w-2/3">
-                  <h3 className="text-xl font-bold mb-4">Optionele SLA</h3>
-                  <p className="text-gray-700">
-                    Als laatst biedt beterzo nog een SLA, deze is optioneel maar wordt wel aangeraden. Als je gaat werken met een systeem merk je eigenlijk pas wat er werkt, wat je nog meer wilt en wat je nog aangepast wilt hebben.
-                  </p>
-                </div>
-                
-                <div className="md:w-1/3 flex items-center justify-center">
-                  <div className="w-20 h-20 bg-primary-50 rounded-full flex items-center justify-center">
-                    <CheckCircle className="w-10 h-10 text-primary" />
                   </div>
                 </div>
               </div>
