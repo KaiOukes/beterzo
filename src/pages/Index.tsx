@@ -1,5 +1,5 @@
 
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Intro from '@/components/Intro';
@@ -9,24 +9,31 @@ import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
 
 const Index = () => {
-  // Animation observer for scroll animations
+  // Animation ref for intersection observer
+  const sectionRefs = useRef<(HTMLElement | null)[]>([]);
+  
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            entry.target.classList.add('active');
+            entry.target.classList.add('animate-fade-in');
+            entry.target.classList.remove('opacity-0');
           }
         });
       },
-      { threshold: 0.1 }
+      { threshold: 0.1, rootMargin: "0px 0px -100px 0px" }
     );
 
-    const elements = document.querySelectorAll('.slide-in');
-    elements.forEach(el => observer.observe(el));
+    // Get all elements that should be animated
+    const animatedElements = document.querySelectorAll('.animate-on-scroll');
+    animatedElements.forEach(el => {
+      el.classList.add('opacity-0');
+      observer.observe(el);
+    });
 
     return () => {
-      elements.forEach(el => observer.unobserve(el));
+      animatedElements.forEach(el => observer.unobserve(el));
     };
   }, []);
 
