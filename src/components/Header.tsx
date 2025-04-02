@@ -33,6 +33,9 @@ const Header = () => {
             <Link to="/" className="text-gray-700 hover:text-primary font-medium">
               Home
             </Link>
+            <Link to="/ai-training" className="text-gray-700 hover:text-primary font-medium">
+              AI Training
+            </Link>
             <Link to="/maatwerk-automatiseringen" className="text-gray-700 hover:text-primary font-medium">
               Maatwerk Automatiseringen
             </Link>
