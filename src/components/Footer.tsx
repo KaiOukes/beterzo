@@ -38,6 +38,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-8 border-t border-gray-100 text-center text-gray-500 text-sm">
           <p>&copy; {new Date().getFullYear()} Beterzo. Alle rechten voorbehouden.</p>
+          <p className="mt-2">KvK nummer: 95477926</p>
         </div>
       </div>
     </footer>
