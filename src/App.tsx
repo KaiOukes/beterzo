@@ -1,4 +1,5 @@
 
+import React from 'react';
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -9,7 +10,7 @@ import Index from "./pages/Index";
 import Team from "./pages/Team";
 import AITraining from "./pages/AITraining";
 import MaatwerkAutomatiseringen from "./pages/MaatwerkAutomatiseringen";
-import BeterzoOplossingen from "./pages/BeterzoOplossingen";
+import BeterzoOplossingen from "./pages/BeterzoOplossingen";  // Nieuwe pagina
 import NotFound from "./pages/NotFound";
 
 // Scroll to top on route change
@@ -37,7 +38,7 @@ const App = () => (
           <Route path="/team" element={<Team />} />
           <Route path="/ai-training" element={<AITraining />} />
           <Route path="/maatwerk-automatiseringen" element={<MaatwerkAutomatiseringen />} />
-          <Route path="/beterzo-oplossingen" element={<BeterzoOplossingen />} />
+          <Route path="/beterzo-oplossingen" element={<BeterzoOplossingen />} />  {/* Nieuwe route */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

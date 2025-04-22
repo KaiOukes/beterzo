@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import Logo from './Logo';
@@ -68,6 +67,7 @@ const Header = () => {
             <NavLink to="/">Home</NavLink>
             <NavLink to="/ai-training">AI Training</NavLink>
             <NavLink to="/maatwerk-automatiseringen">Maatwerk Automatiseringen</NavLink>
+            <NavLink to="/beterzo-oplossingen">Beterzo Oplossingen</NavLink>
             <NavLink to="/team">Ons Team</NavLink>
           </nav>
         </div>
@@ -101,6 +101,7 @@ const Header = () => {
                   <MobileNavLink to="/">Home</MobileNavLink>
                   <MobileNavLink to="/ai-training">AI Training</MobileNavLink>
                   <MobileNavLink to="/maatwerk-automatiseringen">Maatwerk Automatiseringen</MobileNavLink>
+                  <MobileNavLink to="/beterzo-oplossingen">Beterzo Oplossingen</MobileNavLink>
                   <MobileNavLink to="/team">Ons Team</MobileNavLink>
                 </nav>
                 <div className="mt-8 px-4">
