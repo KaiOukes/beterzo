@@ -9,6 +9,7 @@ import Index from "./pages/Index";
 import Team from "./pages/Team";
 import AITraining from "./pages/AITraining";
 import MaatwerkAutomatiseringen from "./pages/MaatwerkAutomatiseringen";
+import BeterzoOplossingen from "./pages/BeterzoOplossingen";
 import NotFound from "./pages/NotFound";
 
 // Scroll to top on route change
@@ -36,7 +37,7 @@ const App = () => (
           <Route path="/team" element={<Team />} />
           <Route path="/ai-training" element={<AITraining />} />
           <Route path="/maatwerk-automatiseringen" element={<MaatwerkAutomatiseringen />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/beterzo-oplossingen" element={<BeterzoOplossingen />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
