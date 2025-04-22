@@ -47,6 +47,22 @@ const BeterzoOplossingen = () => {
                   </Link>
                 </CardContent>
               </Card>
+
+              <Card className="border-none shadow-xl overflow-hidden">
+                <CardContent className="p-8">
+                  <h2 className="text-2xl font-bold mb-4">Telefonische Klantenservice... een tikkie beterzo</h2>
+                  <p className="text-gray-700 mb-6">
+                    Een slimme, geautomatiseerde telefonie-oplossing die inkomend klantcontact razendsnel 
+                    en professioneel afhandelt – automatisch waar het kan, persoonlijk waar het moet.
+                  </p>
+                  <Link to="/telefoon-service" className="inline-block">
+                    <Button className="rounded-lg">
+                      Lees meer
+                      <ArrowRight className="ml-2 h-4 w-4" />
+                    </Button>
+                  </Link>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
