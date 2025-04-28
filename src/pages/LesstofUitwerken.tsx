@@ -1,12 +1,15 @@
+
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-const LesstofUitgewerkt = () => {
+
+const LesstofUitwerken = () => {
   const handleEmailClick = () => {
     window.location.href = "mailto:kai@beterzo.tech?subject=Offerte aanvraag Lesstof Uitwerken";
   };
+
   return <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-grow pt-24">
@@ -64,7 +67,7 @@ const LesstofUitgewerkt = () => {
               <ul className="space-y-4 text-lg text-gray-700 mb-12">
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
-                  Je bespaart gemiddeld 7 uur per module
+                  Je bespaart gemiddeld 4 uur per module
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
@@ -72,18 +75,15 @@ const LesstofUitgewerkt = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
-                  Volledige privacy en beveiliging:
-                  <ul className="ml-6 mt-2 space-y-2">
-                    <li className="flex items-start">
-                      <span className="text-primary mr-2">
-                    </span>
-                      Bestanden zijn beschermd en worden niet gebruikt voor AI-training
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-primary mr-2">•</span>
-                      Verwerking via beveiligde API's (OpenAI API Privacy Policy)
-                    </li>
-                  </ul>
+                  Volledige privacy en beveiliging
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  Bestanden zijn beschermd en worden niet gebruikt voor AI-training
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  Verwerking via beveiligde API's
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
@@ -149,4 +149,5 @@ const LesstofUitgewerkt = () => {
       <Footer />
     </div>;
 };
-export default LesstofUitgewerkt;
+
+export default LesstofUitwerken;
