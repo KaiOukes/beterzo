@@ -3,14 +3,11 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-
 const LesstofUitgewerkt = () => {
   const handleEmailClick = () => {
     window.location.href = "mailto:kai@beterzo.tech?subject=Offerte aanvraag Lesstof Uitwerken";
   };
-
-  return (
-    <div className="min-h-screen flex flex-col">
+  return <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-grow pt-24">
         {/* Hero Section */}
@@ -78,7 +75,8 @@ const LesstofUitgewerkt = () => {
                   Volledige privacy en beveiliging:
                   <ul className="ml-6 mt-2 space-y-2">
                     <li className="flex items-start">
-                      <span className="text-primary mr-2">•</span>
+                      <span className="text-primary mr-2">
+                    </span>
                       Bestanden zijn beschermd en worden niet gebruikt voor AI-training
                     </li>
                     <li className="flex items-start">
@@ -140,10 +138,7 @@ const LesstofUitgewerkt = () => {
           <div className="container px-4 mx-auto text-center">
             <div className="max-w-2xl mx-auto">
               <h2 className="text-3xl font-bold mb-8">Klaar om te starten?</h2>
-              <Button 
-                onClick={handleEmailClick}
-                className="rounded-lg px-8 py-6 text-lg shadow-lg hover:shadow-xl transition-all"
-              >
+              <Button onClick={handleEmailClick} className="rounded-lg px-8 py-6 text-lg shadow-lg hover:shadow-xl transition-all">
                 Vraag een offerte aan
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
@@ -152,8 +147,6 @@ const LesstofUitgewerkt = () => {
         </section>
       </main>
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default LesstofUitgewerkt;
