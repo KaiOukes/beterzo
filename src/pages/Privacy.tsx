@@ -1,12 +1,9 @@
-
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { ExternalLink } from 'lucide-react';
-
 const Privacy = () => {
-  return (
-    <div className="min-h-screen flex flex-col">
+  return <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-grow pt-24">
         {/* Hero Section */}
@@ -80,36 +77,21 @@ const Privacy = () => {
                 <ul className="list-disc pl-6 space-y-4">
                   <li>
                     OpenAI (ChatGPT via API): Data die via de API wordt verzonden, wordt niet gebruikt om modellen te trainen.{' '}
-                    <a 
-                      href="https://openai.com/policies/api-data-usage-policies" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-primary hover:underline inline-flex items-center"
-                    >
+                    <a href="https://openai.com/policies/api-data-usage-policies" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center">
                       Bekijk OpenAI's API Data Policy
                       <ExternalLink className="ml-1 h-4 w-4" />
                     </a>
                   </li>
                   <li>
                     Claude (Anthropic): Input die via de API wordt gestuurd, wordt niet opgeslagen of gebruikt voor modeltraining.{' '}
-                    <a 
-                      href="https://www.anthropic.com/legal/data-usage" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-primary hover:underline inline-flex items-center"
-                    >
+                    <a href="https://www.anthropic.com/legal/data-usage" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center">
                       Bekijk Anthropic's Data Usage Policy
                       <ExternalLink className="ml-1 h-4 w-4" />
                     </a>
                   </li>
                   <li>
                     Gemini (Google): Ingevoerde data via de Gemini API wordt niet gebruikt om AI-systemen te trainen.{' '}
-                    <a 
-                      href="https://cloud.google.com/vertex-ai/docs/generative-ai/data-governance" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-primary hover:underline inline-flex items-center"
-                    >
+                    <a href="https://cloud.google.com/vertex-ai/docs/generative-ai/data-governance" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center">
                       Bekijk Google Gemini's API Data Policy
                       <ExternalLink className="ml-1 h-4 w-4" />
                     </a>
@@ -134,12 +116,7 @@ const Privacy = () => {
                 </ul>
                 <p className="text-lg">
                   Wil je meer weten over de AVG/GDPR?{' '}
-                  <a 
-                    href="https://autoriteitpersoonsgegevens.nl/nl/over-privacy/wetten/algemene-verordening-gegevensbescherming-avg" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-primary hover:underline inline-flex items-center"
-                  >
+                  <a href="https://autoriteitpersoonsgegevens.nl/nl/over-privacy/wetten/algemene-verordening-gegevensbescherming-avg" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline inline-flex items-center">
                     Lees hier alles over de AVG op de website van de Autoriteit Persoonsgegevens
                     <ExternalLink className="ml-1 h-4 w-4" />
                   </a>
@@ -148,40 +125,16 @@ const Privacy = () => {
 
               {/* Partner Privacy Policies */}
               <div>
-                <h2 className="text-2xl font-bold mb-6">Privacy policies van onze partners</h2>
+                
                 <ul className="space-y-4">
                   <li>
-                    <a 
-                      href="https://openai.com/policies/privacy-policy" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-primary hover:underline inline-flex items-center"
-                    >
-                      🔗 Privacybeleid OpenAI (API gebruik)
-                      <ExternalLink className="ml-1 h-4 w-4" />
-                    </a>
+                    
                   </li>
                   <li>
-                    <a 
-                      href="https://www.anthropic.com/legal/privacy" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-primary hover:underline inline-flex items-center"
-                    >
-                      🔗 Privacybeleid Claude (Anthropic)
-                      <ExternalLink className="ml-1 h-4 w-4" />
-                    </a>
+                    
                   </li>
                   <li>
-                    <a 
-                      href="https://cloud.google.com/privacy" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-primary hover:underline inline-flex items-center"
-                    >
-                      🔗 Privacybeleid Gemini (Google)
-                      <ExternalLink className="ml-1 h-4 w-4" />
-                    </a>
+                    
                   </li>
                 </ul>
               </div>
@@ -190,8 +143,6 @@ const Privacy = () => {
         </section>
       </main>
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Privacy;
