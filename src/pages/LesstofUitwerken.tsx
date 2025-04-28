@@ -18,12 +18,12 @@ const LesstofUitwerken = () => {
           <div className="container px-4 mx-auto">
             <div className="max-w-4xl">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Lesstof Uitwerken... een tikkie beterzo
+                Lesstof uitwerken... een tikkie beterzo
               </h1>
               <p className="text-xl text-gray-700 mb-8">
-                Upload je module en ontvang automatisch leerdoelen, samenvattingen en begrippenlijsten, 
+                Upload je module en ontvang automatisch leerdoelen, samenvattingen en begrippenlijsten 
                 voor zowel studenten als docenten. Binnen een maand staat jouw systeem live – en daarna 
-                werk je in 4 minuten uit wat anders 7 uur zou kosten.
+                werk je in vier minuten uit wat anders zeven uur zou kosten.
               </p>
             </div>
           </div>
@@ -67,7 +67,7 @@ const LesstofUitwerken = () => {
               <ul className="space-y-4 text-lg text-gray-700 mb-12">
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
-                  Je bespaart gemiddeld 4 uur per module
+                  Je bespaart gemiddeld vier uur per module
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
