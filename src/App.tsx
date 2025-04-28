@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
@@ -41,6 +42,7 @@ const App = () => (
           <Route path="/beterzo-oplossingen" element={<BeterzoOplossingen />} />
           <Route path="/toetsvragen-generator" element={<ToetsVragenGenerator />} />
           <Route path="/telefoon-service" element={<TelefoonService />} />
+          <Route path="/lesstof-uitgewerkt" element={<LesstofUitgewerkt />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
