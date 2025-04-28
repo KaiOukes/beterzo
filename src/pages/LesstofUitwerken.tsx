@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -24,7 +23,7 @@ const LesstofUitgewerkt = () => {
               <p className="text-xl text-gray-700 mb-8">
                 Upload je module en ontvang automatisch leerdoelen, samenvattingen en begrippenlijsten, 
                 voor zowel studenten als docenten. Binnen een maand staat jouw systeem live – en daarna 
-                werk je in 7 minuten uit wat anders 7 uur zou kosten.
+                werk je in 4 minuten uit wat anders 7 uur zou kosten.
               </p>
             </div>
           </div>
