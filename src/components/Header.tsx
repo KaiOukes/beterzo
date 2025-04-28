@@ -52,11 +52,9 @@ const Header = () => {
   );
 
   return (
-    <header 
-      className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
-      }`}
-    >
+    <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${
+      scrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+    }`}>
       <div className="container flex justify-between items-center">
         <div className="flex items-center">
           <Link to="/" className="transform transition hover:scale-105">
@@ -68,6 +66,7 @@ const Header = () => {
             <NavLink to="/ai-training">AI Training</NavLink>
             <NavLink to="/maatwerk-automatiseringen">Maatwerk Automatiseringen</NavLink>
             <NavLink to="/beterzo-oplossingen">Beterzo Oplossingen</NavLink>
+            <NavLink to="/privacy">Privacy bij Beterzo</NavLink>
             <NavLink to="/team">Ons Team</NavLink>
           </nav>
         </div>
@@ -102,6 +101,7 @@ const Header = () => {
                   <MobileNavLink to="/ai-training">AI Training</MobileNavLink>
                   <MobileNavLink to="/maatwerk-automatiseringen">Maatwerk Automatiseringen</MobileNavLink>
                   <MobileNavLink to="/beterzo-oplossingen">Beterzo Oplossingen</MobileNavLink>
+                  <MobileNavLink to="/privacy">Privacy bij Beterzo</MobileNavLink>
                   <MobileNavLink to="/team">Ons Team</MobileNavLink>
                 </nav>
                 <div className="mt-8 px-4">

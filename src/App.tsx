@@ -14,6 +14,7 @@ import ToetsVragenGenerator from "./pages/ToetsVragenGenerator";
 import NotFound from "./pages/NotFound";
 import TelefoonService from "./pages/TelefoonService";
 import LesstofUitwerken from "./pages/LesstofUitwerken";
+import Privacy from "./pages/Privacy";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -43,6 +44,7 @@ const App = () => (
           <Route path="/toetsvragen-generator" element={<ToetsVragenGenerator />} />
           <Route path="/telefoon-service" element={<TelefoonService />} />
           <Route path="/lesstof-uitwerken" element={<LesstofUitwerken />} />
+          <Route path="/privacy" element={<Privacy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
