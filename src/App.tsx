@@ -14,6 +14,7 @@ import BeterzoOplossingen from "./pages/BeterzoOplossingen";
 import ToetsVragenGenerator from "./pages/ToetsVragenGenerator";
 import NotFound from "./pages/NotFound";
 import TelefoonService from "./pages/TelefoonService";
+import LesstofUitgewerkt from "./pages/LesstofUitgewerkt";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
