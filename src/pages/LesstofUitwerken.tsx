@@ -7,7 +7,7 @@ import { ArrowRight } from 'lucide-react';
 
 const LesstofUitgewerkt = () => {
   const handleEmailClick = () => {
-    window.location.href = "mailto:kai@beterzo.tech?subject=Offerte aanvraag Lesstof Uitgewerkt";
+    window.location.href = "mailto:kai@beterzo.tech?subject=Offerte aanvraag Lesstof Uitwerken";
   };
 
   return (
@@ -19,7 +19,7 @@ const LesstofUitgewerkt = () => {
           <div className="container px-4 mx-auto">
             <div className="max-w-4xl">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Lesstof Uitgewerkt... een tikkie beterzo
+                Lesstof Uitwerken... een tikkie beterzo
               </h1>
               <p className="text-xl text-gray-700 mb-8">
                 Upload je module en ontvang automatisch leerdoelen, samenvattingen en begrippenlijsten, 

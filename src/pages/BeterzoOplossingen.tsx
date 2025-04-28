@@ -32,13 +32,13 @@ const BeterzoOplossingen = () => {
             <div className="grid gap-8 max-w-4xl">
               <Card className="border-none shadow-xl overflow-hidden">
                 <CardContent className="p-8">
-                  <h2 className="text-2xl font-bold mb-4">Lesstof Uitgewerkt... een tikkie beterzo</h2>
+                  <h2 className="text-2xl font-bold mb-4">Lesstof Uitwerken... een tikkie beterzo</h2>
                   <p className="text-gray-700 mb-6">
                     Upload je module en ontvang automatisch leerdoelen, samenvattingen en begrippenlijsten, 
                     voor zowel studenten als docenten. Binnen een maand staat jouw systeem live – en daarna 
                     werk je in 7 minuten uit wat anders 7 uur zou kosten.
                   </p>
-                  <Link to="/lesstof-uitgewerkt" className="inline-block">
+                  <Link to="/lesstof-uitwerken" className="inline-block">
                     <Button className="rounded-lg">
                       Lees meer
                       <ArrowRight className="ml-2 h-4 w-4" />

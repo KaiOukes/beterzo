@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
@@ -14,7 +13,7 @@ import BeterzoOplossingen from "./pages/BeterzoOplossingen";
 import ToetsVragenGenerator from "./pages/ToetsVragenGenerator";
 import NotFound from "./pages/NotFound";
 import TelefoonService from "./pages/TelefoonService";
-import LesstofUitgewerkt from "./pages/LesstofUitgewerkt";
+import LesstofUitwerken from "./pages/LesstofUitwerken";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -43,7 +42,7 @@ const App = () => (
           <Route path="/beterzo-oplossingen" element={<BeterzoOplossingen />} />
           <Route path="/toetsvragen-generator" element={<ToetsVragenGenerator />} />
           <Route path="/telefoon-service" element={<TelefoonService />} />
-          <Route path="/lesstof-uitgewerkt" element={<LesstofUitgewerkt />} />
+          <Route path="/lesstof-uitwerken" element={<LesstofUitwerken />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
