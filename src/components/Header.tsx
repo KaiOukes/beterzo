@@ -2,10 +2,17 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import Logo from './Logo';
-import { ArrowRight, Menu } from 'lucide-react';
+import { ArrowRight, Menu, ChevronDown } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { useIsMobile } from '@/hooks/use-mobile';
+import {
+  NavigationMenu,
+  NavigationMenuContent,
+  NavigationMenuItem,
+  NavigationMenuList,
+  NavigationMenuTrigger,
+} from "@/components/ui/navigation-menu";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -62,9 +69,61 @@ const Header = () => {
             <Logo />
           </Link>
           
-          <nav className="ml-8 hidden md:flex space-x-6">
+          <nav className="ml-8 hidden md:flex space-x-6 items-center">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/#services">Diensten</NavLink>
+            
+            <NavigationMenu>
+              <NavigationMenuList>
+                <NavigationMenuItem>
+                  <NavigationMenuTrigger className="font-medium text-gray-700 hover:text-primary bg-transparent p-0 h-auto">
+                    Diensten
+                  </NavigationMenuTrigger>
+                  <NavigationMenuContent>
+                    <div className="w-80 p-4">
+                      <div className="grid gap-3">
+                        <Link
+                          to="/maatwerk-automatiseringen"
+                          className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Maatwerk automatiseringen</div>
+                          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground mt-1">
+                            Slimme workflows met Make.com en OpenAI
+                          </p>
+                        </Link>
+                        <Link
+                          to="/toetsvragen-generator"
+                          className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Toetsvragen generator</div>
+                          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground mt-1">
+                            AI-powered toetsvragen generatie
+                          </p>
+                        </Link>
+                        <Link
+                          to="/lesstof-uitwerken"
+                          className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Lesstof uitwerken</div>
+                          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground mt-1">
+                            Automatisch lesstof ontwikkelen
+                          </p>
+                        </Link>
+                        <Link
+                          to="/telefoon-service"
+                          className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium leading-none">Telefonische klantenservice</div>
+                          <p className="line-clamp-2 text-sm leading-snug text-muted-foreground mt-1">
+                            AI-powered telefoon automatisering
+                          </p>
+                        </Link>
+                      </div>
+                    </div>
+                  </NavigationMenuContent>
+                </NavigationMenuItem>
+              </NavigationMenuList>
+            </NavigationMenu>
+            
             <NavLink to="/team">Over ons</NavLink>
           </nav>
         </div>
@@ -96,7 +155,17 @@ const Header = () => {
               <SheetContent side="right" className="w-[300px] sm:w-[350px] py-12">
                 <nav className="flex flex-col space-y-1 mt-4">
                   <MobileNavLink to="/">Home</MobileNavLink>
-                  <MobileNavLink to="/#services">Diensten</MobileNavLink>
+                  
+                  <div className="py-3 px-4">
+                    <div className="text-lg font-medium text-gray-700 mb-2">Diensten</div>
+                    <div className="ml-4 space-y-1">
+                      <MobileNavLink to="/maatwerk-automatiseringen">Maatwerk automatiseringen</MobileNavLink>
+                      <MobileNavLink to="/toetsvragen-generator">Toetsvragen generator</MobileNavLink>
+                      <MobileNavLink to="/lesstof-uitwerken">Lesstof uitwerken</MobileNavLink>
+                      <MobileNavLink to="/telefoon-service">Telefonische klantenservice</MobileNavLink>
+                    </div>
+                  </div>
+                  
                   <MobileNavLink to="/team">Over ons</MobileNavLink>
                 </nav>
                 <div className="mt-8 px-4">
