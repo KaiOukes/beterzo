@@ -64,10 +64,8 @@ const Header = () => {
           
           <nav className="ml-8 hidden md:flex space-x-6">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/maatwerk-automatiseringen">Maatwerk automatiseringen</NavLink>
-            <NavLink to="/beterzo-oplossingen">Beterzo oplossingen</NavLink>
-            <NavLink to="/privacy">Privacy bij beterzo</NavLink>
-            <NavLink to="/team">Ons team</NavLink>
+            <NavLink to="/#services">Diensten</NavLink>
+            <NavLink to="/team">Over ons</NavLink>
           </nav>
         </div>
         
@@ -84,7 +82,7 @@ const Header = () => {
                 size="sm"
                 className="rounded-full border-primary text-primary hover:bg-primary hover:text-white transition-all"
               >
-                Intake
+                Plan intake
               </Button>
             </a>
             
@@ -98,10 +96,8 @@ const Header = () => {
               <SheetContent side="right" className="w-[300px] sm:w-[350px] py-12">
                 <nav className="flex flex-col space-y-1 mt-4">
                   <MobileNavLink to="/">Home</MobileNavLink>
-                  <MobileNavLink to="/maatwerk-automatiseringen">Maatwerk automatiseringen</MobileNavLink>
-                  <MobileNavLink to="/beterzo-oplossingen">Beterzo oplossingen</MobileNavLink>
-                  <MobileNavLink to="/privacy">Privacy bij beterzo</MobileNavLink>
-                  <MobileNavLink to="/team">Ons team</MobileNavLink>
+                  <MobileNavLink to="/#services">Diensten</MobileNavLink>
+                  <MobileNavLink to="/team">Over ons</MobileNavLink>
                 </nav>
                 <div className="mt-8 px-4">
                   <a 
@@ -114,7 +110,7 @@ const Header = () => {
                       variant="outline" 
                       className="w-full rounded-full border-primary text-primary hover:bg-primary hover:text-white transition-all"
                     >
-                      Boek gratis intake
+                      Plan een intake
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Button>
                   </a>
@@ -133,7 +129,7 @@ const Header = () => {
               variant="outline" 
               className="rounded-full border-primary text-primary hover:bg-primary hover:text-white transition-all"
             >
-              Boek gratis intake
+              Plan een intake
               <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </a>
