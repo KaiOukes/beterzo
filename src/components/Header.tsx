@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import Logo from './Logo';
@@ -63,11 +64,10 @@ const Header = () => {
           
           <nav className="ml-8 hidden md:flex space-x-6">
             <NavLink to="/">Home</NavLink>
-            <NavLink to="/ai-training">AI Training</NavLink>
-            <NavLink to="/maatwerk-automatiseringen">Maatwerk Automatiseringen</NavLink>
-            <NavLink to="/beterzo-oplossingen">Beterzo Oplossingen</NavLink>
-            <NavLink to="/privacy">Privacy bij Beterzo</NavLink>
-            <NavLink to="/team">Ons Team</NavLink>
+            <NavLink to="/maatwerk-automatiseringen">Maatwerk automatiseringen</NavLink>
+            <NavLink to="/beterzo-oplossingen">Beterzo oplossingen</NavLink>
+            <NavLink to="/privacy">Privacy bij beterzo</NavLink>
+            <NavLink to="/team">Ons team</NavLink>
           </nav>
         </div>
         
@@ -98,11 +98,10 @@ const Header = () => {
               <SheetContent side="right" className="w-[300px] sm:w-[350px] py-12">
                 <nav className="flex flex-col space-y-1 mt-4">
                   <MobileNavLink to="/">Home</MobileNavLink>
-                  <MobileNavLink to="/ai-training">AI Training</MobileNavLink>
-                  <MobileNavLink to="/maatwerk-automatiseringen">Maatwerk Automatiseringen</MobileNavLink>
-                  <MobileNavLink to="/beterzo-oplossingen">Beterzo Oplossingen</MobileNavLink>
-                  <MobileNavLink to="/privacy">Privacy bij Beterzo</MobileNavLink>
-                  <MobileNavLink to="/team">Ons Team</MobileNavLink>
+                  <MobileNavLink to="/maatwerk-automatiseringen">Maatwerk automatiseringen</MobileNavLink>
+                  <MobileNavLink to="/beterzo-oplossingen">Beterzo oplossingen</MobileNavLink>
+                  <MobileNavLink to="/privacy">Privacy bij beterzo</MobileNavLink>
+                  <MobileNavLink to="/team">Ons team</MobileNavLink>
                 </nav>
                 <div className="mt-8 px-4">
                   <a 

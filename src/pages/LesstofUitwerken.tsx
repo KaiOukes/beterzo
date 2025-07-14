@@ -7,7 +7,7 @@ import { ArrowRight } from 'lucide-react';
 
 const LesstofUitwerken = () => {
   const handleEmailClick = () => {
-    window.location.href = "mailto:kai@beterzo.tech?subject=Offerte aanvraag Lesstof Uitwerken";
+    window.location.href = "mailto:kai@beterzo.tech?subject=Offerte aanvraag Lesstof uitwerken";
   };
 
   return <div className="min-h-screen flex flex-col">
@@ -75,15 +75,11 @@ const LesstofUitwerken = () => {
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
-                  Volledige privacy en beveiliging
+                  Volledige privacy en beveiliging, bestanden zijn beschermd en worden niet gebruikt voor ai-training
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>
-                  Bestanden zijn beschermd en worden niet gebruikt voor AI-training
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">•</span>
-                  Verwerking via beveiligde API's
+                  Verwerking via beveiligde api's
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">•</span>

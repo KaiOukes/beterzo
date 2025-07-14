@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
@@ -7,7 +8,6 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Index from "./pages/Index";
 import Team from "./pages/Team";
-import AITraining from "./pages/AITraining";
 import MaatwerkAutomatiseringen from "./pages/MaatwerkAutomatiseringen";
 import BeterzoOplossingen from "./pages/BeterzoOplossingen";
 import ToetsVragenGenerator from "./pages/ToetsVragenGenerator";
@@ -38,7 +38,6 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/team" element={<Team />} />
-          <Route path="/ai-training" element={<AITraining />} />
           <Route path="/maatwerk-automatiseringen" element={<MaatwerkAutomatiseringen />} />
           <Route path="/beterzo-oplossingen" element={<BeterzoOplossingen />} />
           <Route path="/toetsvragen-generator" element={<ToetsVragenGenerator />} />

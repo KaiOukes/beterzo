@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '@/components/Header';
@@ -32,7 +33,7 @@ const BeterzoOplossingen = () => {
             <div className="grid gap-8 max-w-4xl">
               <Card className="border-none shadow-xl overflow-hidden">
                 <CardContent className="p-8">
-                  <h2 className="text-2xl font-bold mb-4">Lesstof Uitwerken... een tikkie beterzo</h2>
+                  <h2 className="text-2xl font-bold mb-4">Lesstof uitwerken... een tikje beterzo</h2>
                   <p className="text-gray-700 mb-6">
                     Upload je module en ontvang automatisch leerdoelen, samenvattingen en begrippenlijsten, 
                     voor zowel studenten als docenten. Binnen een maand staat jouw systeem live – en daarna 
@@ -49,10 +50,10 @@ const BeterzoOplossingen = () => {
 
               <Card className="border-none shadow-xl overflow-hidden">
                 <CardContent className="p-8">
-                  <h2 className="text-2xl font-bold mb-4">Toetsvragen... een tikkie beterzo</h2>
+                  <h2 className="text-2xl font-bold mb-4">Toetsvragen... een tikje beterzo</h2>
                   <p className="text-gray-700 mb-6">
                     Automatisch leerdoelen en toetsvragen genereren op basis van jouw lesstof? 
-                    Met deze slimme AI-oplossing doe je dat in een paar klikken. Snel, veilig en 
+                    Met deze slimme oplossing doe je dat in een paar klikken. Snel, veilig en 
                     altijd passend bij jouw niveau en doelgroep.
                   </p>
                   <Link to="/toetsvragen-generator" className="inline-block">
@@ -66,7 +67,7 @@ const BeterzoOplossingen = () => {
 
               <Card className="border-none shadow-xl overflow-hidden">
                 <CardContent className="p-8">
-                  <h2 className="text-2xl font-bold mb-4">Telefonische Klantenservice... een tikkie beterzo</h2>
+                  <h2 className="text-2xl font-bold mb-4">Telefonische klantenservice... een tikje beterzo</h2>
                   <p className="text-gray-700 mb-6">
                     Een slimme, geautomatiseerde telefonie-oplossing die inkomend klantcontact razendsnel 
                     en professioneel afhandelt – automatisch waar het kan, persoonlijk waar het moet.
